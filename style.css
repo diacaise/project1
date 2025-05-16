@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: roboto,arial;
+    background-color: rgb(230, 232, 233);
+}
+header{
+    background-color: rgb(88, 88, 245);
+    color: white;
+    padding:15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    font-family: roboto,arial;
+    margin-bottom: 15px;
+}
+h3{
+    color:rgb(4, 143, 197);
+    margin: 3px;
+}
+h4{
+    margin-bottom: 10px;
+}
+li{
+    margin-left: 20px;
+    margin-bottom: 4px;
+}
+input{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+    padding: 4px;
+}
+input::placeholder{
+    font-size: 15px;
+}
+select{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+    width: 100%;
+}
+button{
+    background-color: rgb(4, 4, 199);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding:8px;
+}
+.main{
+    display:flex;
+}
+.left{
+    background-color: white;
+    padding:20px;
+    border-radius:10px;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    width: 32%;
+    height:75vh;
+    
+}
+.middle{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    width: 32%;
+}
+.right{
+    background-color: white;
+    padding: 20px;
+    border-radius:10px;
+    border-radius: 10px;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    width: 32%;
+}
+.up-senction{
+    display: flex;
+    margin-bottom: 5px;
+}
+.red{
+    background-color: red;
+    width: 32%;
+    height: 5vh;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    border-radius: 4px;
+}
+.blue{
+    background-color: rgb(94, 94, 231);
+    width: 32%;
+    height: 5vh;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    border-radius: 4px;
+}
+.green{
+    background-color: rgb(13, 209, 13);
+    width: 32%;
+    height: 5vh;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    border-radius: 4px;
+}
+.down-senction{
+    display: flex;
+    margin-bottom: 10px;
+}
+.yellow{
+    background-color:rgb(251, 247, 6);
+    width: 32%;
+    height: 5vh;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    border-radius: 4px;
+}
+.blueviolet{
+    background-color:rgb(166, 80, 247);
+    width: 32%;
+    height: 5vh;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    border-radius: 4px;
+}
+.orange{
+    background-color:rgb(245, 163, 11);
+    width: 32%;
+    height: 5vh;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    border-radius: 4px;
+}
+.but{
+    background-color:rgb(6, 149, 205);
+    color: white;
+    height: 6vh;
+    width: 100%;
+    border-radius: 1px;
+
+}
+.but:hover{
+    background-color: orangered;
+}
+footer{
+    display: flex;
+    font-family: roboto,arial;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    height: 5vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-bott;
+}
